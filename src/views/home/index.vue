@@ -9,6 +9,7 @@ const MenuBtnFnc = () => {
 };
 
 onMounted(() => {
+    // 数字自动增加
     const counters = document.querySelectorAll('.counter')
     counters.forEach(counter => {
         counter.innerHTML = '0'
